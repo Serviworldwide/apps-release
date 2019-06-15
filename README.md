@@ -1,1 +1,1 @@
-Download from https://app.ser.vi
+Downloads page: https://app.ser.vi
