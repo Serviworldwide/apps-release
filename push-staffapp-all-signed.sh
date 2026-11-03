@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Pushes: staff-app-staging-release.apk staff-app-release.apk
+# Pushes: staff-app-staging-release.apk staff-app-prod-release.apk
 # Usage: ./push-staffapp-all-signed.sh <commit message>   (message may be unquoted / multi-word)
 
 MSG="$*"
@@ -9,7 +9,7 @@ if [ -z "$MSG" ]; then
   exit 1
 fi
 
-FILES=(staff-app-staging-release.apk staff-app-release.apk)
+FILES=(staff-app-staging-release.apk staff-app-prod-release.apk)
 
 # Ensure each APK has been built
 missing=0
